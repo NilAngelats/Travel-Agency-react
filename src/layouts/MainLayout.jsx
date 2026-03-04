@@ -1,16 +1,34 @@
 import Navbar from "../components/Navbar";
 import { Outlet } from "react-router";
 import Footer from "../components/Footer";
+import { useEffect, useState } from "react";
 
 const MainLayout = () => {
+  const [destinations, setDestinations] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const resp = await fetch("/src/assets/data.json");
+        if (!resp.ok) throw new Error("Something went wrong...");
+        const data = await resp.json();
+        setDestinations(data);
+      } catch (err) {
+        alert(err.message);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
-    <body className="p-5">
+    <div className="p-5">
       <Navbar />
       <main>
-        <Outlet />
+        <Outlet context={destinations} />
       </main>
       <Footer />
-    </body>
+    </div>
   );
 };
 
