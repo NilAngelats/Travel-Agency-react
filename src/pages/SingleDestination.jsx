@@ -27,7 +27,6 @@ const SingleDestination = () => {
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-8">
-      {/* Back */}
       <button
         onClick={() => navigate(-1)}
         className="btn btn-ghost mb-6 gap-2"
@@ -36,7 +35,6 @@ const SingleDestination = () => {
         ← Go back
       </button>
 
-      {/* Hero */}
       <div className="overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-sm">
         <div className="relative">
           <img
@@ -47,8 +45,7 @@ const SingleDestination = () => {
             decoding="async"
           />
 
-          {/* soft overlay for readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-black/45 via-black/10 to-transparent" />
 
           <div className="absolute bottom-5 left-5 right-5">
             <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
@@ -80,16 +77,13 @@ const SingleDestination = () => {
           </div>
         </div>
 
-        {/* Content */}
         <div className="grid gap-6 p-6 md:grid-cols-3">
-          {/* Left: description */}
           <div className="md:col-span-2 space-y-4">
             <h2 className="text-xl font-semibold">About this destination</h2>
             <p className="text-base-content/80 leading-relaxed">
               {description}
             </p>
 
-            {/* highlights */}
             <div className="mt-4 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-base-300 p-4">
                 <p className="text-sm text-base-content/60">Best for</p>
@@ -102,7 +96,6 @@ const SingleDestination = () => {
             </div>
           </div>
 
-          {/* Right: booking card (UI only) */}
           <aside className="rounded-2xl border border-base-300 bg-base-100 p-5 shadow-sm h-fit">
             <h3 className="text-lg font-semibold mb-4">Trip summary</h3>
 
