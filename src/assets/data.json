@@ -8,7 +8,7 @@
     "price": 1200,
     "duration": "7 days",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80",
     "description": "Tokyo is a fascinating blend of ultra-modern technology and traditional culture. Visitors can explore ancient temples, neon-lit districts, incredible street food, and world-class shopping."
   },
   {
@@ -20,7 +20,7 @@
     "price": 950,
     "duration": "5 days",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
     "description": "Paris, the City of Light, is famous for its romantic atmosphere, historic monuments, art museums, and iconic landmarks like the Eiffel Tower and the Louvre."
   },
   {
@@ -32,7 +32,7 @@
     "price": 1100,
     "duration": "6 days",
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
     "description": "New York City is one of the most exciting cities in the world. From Times Square and Central Park to Broadway shows and incredible restaurants, the city offers endless experiences."
   },
   {
@@ -44,7 +44,7 @@
     "price": 800,
     "duration": "5 days",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1505739774071-3f5e05b5c9c7",
+    "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1200&q=80",
     "description": "Barcelona combines beautiful Mediterranean beaches with stunning architecture by Antoni Gaudí. The city is famous for its food, nightlife, and vibrant cultural scene."
   },
   {
@@ -56,7 +56,7 @@
     "price": 1050,
     "duration": "7 days",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1576485375217-d6a95e34d043",
+    "image": "https://images.unsplash.com/photo-1576485375217-d6a95e34d043?auto=format&fit=crop&w=1200&q=80",
     "description": "Cape Town is one of the most beautiful cities in the world, surrounded by ocean and mountains. Visitors can explore Table Mountain, stunning beaches, and vibrant cultural districts."
   },
   {
@@ -68,7 +68,7 @@
     "price": 1350,
     "duration": "8 days",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9",
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=80",
     "description": "Sydney is famous for the Sydney Opera House, Harbour Bridge, and beautiful beaches. The city offers a perfect mix of outdoor adventure and modern city life."
   }
 ]
