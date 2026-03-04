@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import SingleDestination from "./pages/SingleDestination";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/destinations/:slug" element={<SingleDestination />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
