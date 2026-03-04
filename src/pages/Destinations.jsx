@@ -6,7 +6,7 @@ const Destinations = () => {
   if (!destinations) return <p className="message--loading">Loading...</p>;
 
   return (
-    <div className="space-y-4">
+    <section className="space-y-4 mx-auto max-w-5xl px-4">
       <div>
         <h2 className="text-3xl font-bold">Destinations</h2>
         <span className="text-base-content/70">
@@ -19,7 +19,7 @@ const Destinations = () => {
           <Card key={destination.id} destination={destination} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
