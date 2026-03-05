@@ -4,10 +4,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b bg-base-100/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        {/* Logo */}
         <NavLink to="/" className="flex items-center gap-3 ">
           <img
-            src={"/src/assets/logo.jpg"}
+            src={"/logo.jpg"}
             alt="TravelNow logo"
             className="h-10 w-10 rounded-xl object-cover"
           />

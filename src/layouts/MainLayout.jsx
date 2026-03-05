@@ -9,7 +9,7 @@ const MainLayout = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await fetch("/src/assets/data.json");
+        const resp = await fetch("/data.json");
         if (!resp.ok) throw new Error("Something went wrong...");
         const data = await resp.json();
         setDestinations(data);
